@@ -1,0 +1,9 @@
+{
+  "name": "tanzania-agri-prices-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "bun scripts/validate.ts",
+    "build-processed": "bun scripts/build-processed.ts"
+  }
+}

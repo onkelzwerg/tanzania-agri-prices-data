@@ -24,8 +24,12 @@ Thanks for helping grow this dataset! Two ground rules keep it trustworthy:
    `data/provenance.csv`.
 
 2. Append the provenance row (`week_start,source_file,source_sha256,source_url,imported_at,notes`).
-3. Run `bun scripts/validate.ts` — it must pass.
-4. Open a PR titled `Add week <week_start>`. One bulletin per commit.
+3. Regenerate the combined file: `bun scripts/build-processed.ts`.
+4. Run `bun scripts/validate.ts` — it must pass.
+5. Open a PR titled `Add week <week_start>`. One bulletin per commit.
+
+CI validates the data **and** checks that `data/processed/prices.csv` is in
+sync with the week files, so don't forget step 3.
 
 ## Fixing a value
 

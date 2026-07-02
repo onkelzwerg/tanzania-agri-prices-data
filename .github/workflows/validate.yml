@@ -14,3 +14,4 @@ jobs:
         with:
           bun-version: latest
       - run: bun scripts/validate.ts
+      - run: bun scripts/build-processed.ts --check

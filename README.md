@@ -26,11 +26,19 @@ Known gaps (no bulletin available): 2025-03-17, 2025-06-30, 2025-10-27,
 
 ```
 data/
-  raw/<year>/<week_start>.csv   one file per bulletin week (long format)
+  raw/<year>/<week_start>.csv   one file per bulletin week (long format, source of truth)
+  processed/prices.csv          all weeks concatenated (generated; what the web app fetches)
   provenance.csv                source PDF, SHA-256 and import date per week
 schema/datapackage.json         machine-readable schema (Frictionless-style)
 scripts/validate.ts             validation, runs in CI on every push/PR
+scripts/build-processed.ts      regenerates data/processed/prices.csv
 ```
+
+`data/processed/prices.csv` is a generated artifact — do not edit it by hand.
+Regenerate it with `bun scripts/build-processed.ts` after changing any week
+file; CI fails if the committed copy is stale. The companion web app loads it
+over [jsDelivr](https://www.jsdelivr.com/):
+`https://cdn.jsdelivr.net/gh/onkelzwerg/tanzania-agri-prices-data@main/data/processed/prices.csv`
 
 Each week file is long-format CSV:
 
