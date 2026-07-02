@@ -1,0 +1,65 @@
+{
+  "name": "tanzania-agri-prices-data",
+  "title": "Tanzania Weekly Agricultural Wholesale Prices",
+  "description": "Weekly wholesale prices (TZS per kg) for seven food crops across Tanzanian mainland regions, extracted from the Ministry of Agriculture's Weekly Market Bulletins. An empty price cell means the value was not reported in the bulletin ('-'); prices are never 0.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Agriculture (Tanzania), Weekly Market Bulletins",
+      "path": "https://www.kilimo.go.tz"
+    }
+  ],
+  "resources": [
+    {
+      "name": "prices",
+      "path": "data/raw/<year>/<week_start>.csv (one file per bulletin week)",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "week_start", "type": "date", "format": "%Y-%m-%d", "constraints": { "required": true } },
+          { "name": "week_end", "type": "date", "format": "%Y-%m-%d", "constraints": { "required": true } },
+          { "name": "region", "type": "string", "constraints": { "required": true } },
+          {
+            "name": "crop",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": ["maize", "rice", "beans", "sorghum", "bulrush_millet", "finger_millet", "round_potato"]
+            }
+          },
+          {
+            "name": "price",
+            "type": "integer",
+            "description": "Wholesale price in TZS per kg; empty = not reported (never 0).",
+            "constraints": { "minimum": 1 }
+          }
+        ],
+        "primaryKey": ["week_start", "region", "crop"]
+      }
+    },
+    {
+      "name": "provenance",
+      "path": "data/provenance.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "week_start", "type": "date", "format": "%Y-%m-%d", "constraints": { "required": true } },
+          { "name": "source_file", "type": "string", "constraints": { "required": true } },
+          { "name": "source_sha256", "type": "string", "constraints": { "required": true, "pattern": "^[0-9a-f]{64}$" } },
+          { "name": "source_url", "type": "string" },
+          { "name": "imported_at", "type": "date", "format": "%Y-%m-%d", "constraints": { "required": true } },
+          { "name": "notes", "type": "string" }
+        ],
+        "primaryKey": ["week_start"]
+      }
+    }
+  ]
+}
