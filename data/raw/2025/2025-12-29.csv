@@ -1,0 +1,127 @@
+week_start,week_end,region,crop,price
+2025-12-29,2026-01-02,Arusha,maize,900
+2025-12-29,2026-01-02,Arusha,rice,
+2025-12-29,2026-01-02,Arusha,beans,2300
+2025-12-29,2026-01-02,Arusha,sorghum,1100
+2025-12-29,2026-01-02,Arusha,bulrush_millet,
+2025-12-29,2026-01-02,Arusha,finger_millet,1600
+2025-12-29,2026-01-02,Arusha,round_potato,1100
+2025-12-29,2026-01-02,Dar es Salaam,maize,
+2025-12-29,2026-01-02,Dar es Salaam,rice,
+2025-12-29,2026-01-02,Dar es Salaam,beans,
+2025-12-29,2026-01-02,Dar es Salaam,sorghum,
+2025-12-29,2026-01-02,Dar es Salaam,bulrush_millet,
+2025-12-29,2026-01-02,Dar es Salaam,finger_millet,
+2025-12-29,2026-01-02,Dar es Salaam,round_potato,
+2025-12-29,2026-01-02,Dodoma,maize,800
+2025-12-29,2026-01-02,Dodoma,rice,2500
+2025-12-29,2026-01-02,Dodoma,beans,2800
+2025-12-29,2026-01-02,Dodoma,sorghum,800
+2025-12-29,2026-01-02,Dodoma,bulrush_millet,800
+2025-12-29,2026-01-02,Dodoma,finger_millet,2300
+2025-12-29,2026-01-02,Dodoma,round_potato,1000
+2025-12-29,2026-01-02,Geita,maize,
+2025-12-29,2026-01-02,Geita,rice,
+2025-12-29,2026-01-02,Geita,beans,
+2025-12-29,2026-01-02,Geita,sorghum,
+2025-12-29,2026-01-02,Geita,bulrush_millet,
+2025-12-29,2026-01-02,Geita,finger_millet,
+2025-12-29,2026-01-02,Geita,round_potato,
+2025-12-29,2026-01-02,Kagera,maize,1000
+2025-12-29,2026-01-02,Kagera,rice,2400
+2025-12-29,2026-01-02,Kagera,beans,2200
+2025-12-29,2026-01-02,Kagera,sorghum,1700
+2025-12-29,2026-01-02,Kagera,bulrush_millet,1700
+2025-12-29,2026-01-02,Kagera,finger_millet,2700
+2025-12-29,2026-01-02,Kagera,round_potato,900
+2025-12-29,2026-01-02,Kigoma,maize,800
+2025-12-29,2026-01-02,Kigoma,rice,2500
+2025-12-29,2026-01-02,Kigoma,beans,1700
+2025-12-29,2026-01-02,Kigoma,sorghum,1100
+2025-12-29,2026-01-02,Kigoma,bulrush_millet,1100
+2025-12-29,2026-01-02,Kigoma,finger_millet,2300
+2025-12-29,2026-01-02,Kigoma,round_potato,1100
+2025-12-29,2026-01-02,Kilimanjaro,maize,
+2025-12-29,2026-01-02,Kilimanjaro,rice,
+2025-12-29,2026-01-02,Kilimanjaro,beans,
+2025-12-29,2026-01-02,Kilimanjaro,sorghum,
+2025-12-29,2026-01-02,Kilimanjaro,bulrush_millet,
+2025-12-29,2026-01-02,Kilimanjaro,finger_millet,
+2025-12-29,2026-01-02,Kilimanjaro,round_potato,
+2025-12-29,2026-01-02,Mara,maize,
+2025-12-29,2026-01-02,Mara,rice,
+2025-12-29,2026-01-02,Mara,beans,
+2025-12-29,2026-01-02,Mara,sorghum,
+2025-12-29,2026-01-02,Mara,bulrush_millet,
+2025-12-29,2026-01-02,Mara,finger_millet,
+2025-12-29,2026-01-02,Mara,round_potato,
+2025-12-29,2026-01-02,Morogoro,maize,1000
+2025-12-29,2026-01-02,Morogoro,rice,2700
+2025-12-29,2026-01-02,Morogoro,beans,2100
+2025-12-29,2026-01-02,Morogoro,sorghum,1900
+2025-12-29,2026-01-02,Morogoro,bulrush_millet,
+2025-12-29,2026-01-02,Morogoro,finger_millet,1700
+2025-12-29,2026-01-02,Morogoro,round_potato,1300
+2025-12-29,2026-01-02,Mwanza,maize,1000
+2025-12-29,2026-01-02,Mwanza,rice,3100
+2025-12-29,2026-01-02,Mwanza,beans,2800
+2025-12-29,2026-01-02,Mwanza,sorghum,1600
+2025-12-29,2026-01-02,Mwanza,bulrush_millet,1400
+2025-12-29,2026-01-02,Mwanza,finger_millet,2500
+2025-12-29,2026-01-02,Mwanza,round_potato,1300
+2025-12-29,2026-01-02,National Average,maize,800
+2025-12-29,2026-01-02,National Average,rice,2400
+2025-12-29,2026-01-02,National Average,beans,2200
+2025-12-29,2026-01-02,National Average,sorghum,1300
+2025-12-29,2026-01-02,National Average,bulrush_millet,1200
+2025-12-29,2026-01-02,National Average,finger_millet,1900
+2025-12-29,2026-01-02,National Average,round_potato,1000
+2025-12-29,2026-01-02,Njombe,maize,700
+2025-12-29,2026-01-02,Njombe,rice,
+2025-12-29,2026-01-02,Njombe,beans,1900
+2025-12-29,2026-01-02,Njombe,sorghum,1100
+2025-12-29,2026-01-02,Njombe,bulrush_millet,
+2025-12-29,2026-01-02,Njombe,finger_millet,1800
+2025-12-29,2026-01-02,Njombe,round_potato,900
+2025-12-29,2026-01-02,Rukwa,maize,700
+2025-12-29,2026-01-02,Rukwa,rice,2500
+2025-12-29,2026-01-02,Rukwa,beans,2500
+2025-12-29,2026-01-02,Rukwa,sorghum,
+2025-12-29,2026-01-02,Rukwa,bulrush_millet,
+2025-12-29,2026-01-02,Rukwa,finger_millet,1300
+2025-12-29,2026-01-02,Rukwa,round_potato,1000
+2025-12-29,2026-01-02,Ruvuma,maize,600
+2025-12-29,2026-01-02,Ruvuma,rice,2400
+2025-12-29,2026-01-02,Ruvuma,beans,2750
+2025-12-29,2026-01-02,Ruvuma,sorghum,
+2025-12-29,2026-01-02,Ruvuma,bulrush_millet,
+2025-12-29,2026-01-02,Ruvuma,finger_millet,
+2025-12-29,2026-01-02,Ruvuma,round_potato,
+2025-12-29,2026-01-02,Shinyanga,maize,900
+2025-12-29,2026-01-02,Shinyanga,rice,2700
+2025-12-29,2026-01-02,Shinyanga,beans,2400
+2025-12-29,2026-01-02,Shinyanga,sorghum,1800
+2025-12-29,2026-01-02,Shinyanga,bulrush_millet,1400
+2025-12-29,2026-01-02,Shinyanga,finger_millet,
+2025-12-29,2026-01-02,Shinyanga,round_potato,1100
+2025-12-29,2026-01-02,Simiyu,maize,1100
+2025-12-29,2026-01-02,Simiyu,rice,2800
+2025-12-29,2026-01-02,Simiyu,beans,2900
+2025-12-29,2026-01-02,Simiyu,sorghum,2300
+2025-12-29,2026-01-02,Simiyu,bulrush_millet,2300
+2025-12-29,2026-01-02,Simiyu,finger_millet,2800
+2025-12-29,2026-01-02,Simiyu,round_potato,1200
+2025-12-29,2026-01-02,Songwe,maize,
+2025-12-29,2026-01-02,Songwe,rice,
+2025-12-29,2026-01-02,Songwe,beans,
+2025-12-29,2026-01-02,Songwe,sorghum,
+2025-12-29,2026-01-02,Songwe,bulrush_millet,
+2025-12-29,2026-01-02,Songwe,finger_millet,
+2025-12-29,2026-01-02,Songwe,round_potato,
+2025-12-29,2026-01-02,Tabora,maize,
+2025-12-29,2026-01-02,Tabora,rice,
+2025-12-29,2026-01-02,Tabora,beans,
+2025-12-29,2026-01-02,Tabora,sorghum,
+2025-12-29,2026-01-02,Tabora,bulrush_millet,
+2025-12-29,2026-01-02,Tabora,finger_millet,
+2025-12-29,2026-01-02,Tabora,round_potato,
