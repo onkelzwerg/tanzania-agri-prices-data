@@ -109,11 +109,13 @@ function parseDate(s: string): number | null {
 // ---- data/raw/<year>/<week_start>.csv ----
 const weekFiles: string[] = [];
 for (const year of (await readdir(RAW)).sort()) {
+  if (year.startsWith(".")) continue; // ignore OS cruft (e.g. macOS .DS_Store)
   if (!/^\d{4}$/.test(year)) {
     err(`data/raw/${year}`, null, "unexpected entry; expected 4-digit year directories");
     continue;
   }
   for (const name of (await readdir(join(RAW, year))).sort()) {
+    if (name.startsWith(".")) continue;
     weekFiles.push(join(year, name));
   }
 }
